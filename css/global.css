@@ -57,7 +57,7 @@ footer p{
     font-size: 14px;
 }
 footer div{
-    justify-content:content;
+    justify-content:center !important;
 }
 
 }
