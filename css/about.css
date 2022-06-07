@@ -1,0 +1,23 @@
+#exp{
+    display: flex;
+    align-items: center;
+    padding-top:1em;
+}
+
+h2{
+    margin-right: 4rem;
+}
+
+#description{
+    flex: 1;
+}
+#description h2{
+    font-family:"italic";
+ font-weight:bold
+}
+
+
+#description span{
+    font-family:"italic";
+    font-weight:bold
+}

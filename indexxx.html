@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Xarala_Portfolio</title>
+   <link rel="stylesheet" href="styles.css">
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+
+<body>
+
+<div id="root">
+
+
+   <nav>
+      <a href="">Fof Design</a>
+      <ul>
+
+         <li> <a href="/about" onclick="route()">About</a></li>
+         <li><a href="/portfolio" onclick="route()">Portfolio </a> </li>
+
+         <li> <a href="/contact" onclick="route()">Contact</a></li>
+      </ul>
+   </nav>
+
+
+   <main>
+      <section>
+         <div>
+            <h1>Hello, Ousseynou Fofana</h1>
+            <h3><span id="title"></span><span>Junior</span></h3>
+            <p>Passionné de l'informatique le numerique en general</p>
+            <a href="#">Telecharger Cv</a>
+         </div>
+         <div>
+            <img src="images/5-removebg-preview.png" width="100%" alt="">
+
+         </div>
+
+      </section>
+      <div id="about">
+ 
+        
+      
+        <h1>À propos de moi</h1>
+        <h2 fontFamily="italic" fontWeight="bold">
+          Le plus lourde fardeau, c'est d'exister sans vivre
+        </h2>
+        <p>
+          Passionné par le numérique depuis mon enfance.
+          En commençant au Sénégal, j'ai suivi pendant 2 ans une formation dans le domaine
+          de l'informatique et j’ai appris pendant cette formation les bases de l'informatique
+          {' '}
+          et j’ai découvert le développement web. J’ai développé des compétences en HTML5, CSS3,
+          {' '}
+          PHP et JavaScript. Quand je suis arrivé en France, j'ai suivi le Parcours découverte
+          {' '}
+          des métiers du numérique au Grêta. J’ai travaillé mon projet professionnel et surtout
+          j’ai confirmé mon choix : devenir développeur web. J’ai décidé de suivre une formation
+          Intensive de 3 mois et demi Chez Webforce3 et une formation continue de 8 mois au sein
+          {' '}
+          du Grêta pour un Titre professionnel(CDA), dont 2 mois de stage. Donc Je souhaite
+          {' '}
+          continuer dans cette voie par le biais de l'alternance ou un post <Text  as="span" fontWeight="bold">
+            
+             Developpeur Full Stack Js</Text>.  
+          {' '}
+         
+         </p>
+
+      </div>
+
+      <hr style="height: 5px; background-color:aliceblue">
+   <!--contact-->
+
+   
+<section class="container-fluid p-5" id="contact">
+   <h2 >Contact</h2>           
+
+   <div >
+
+       <div class="col-lg-6 col-md-6 mb-3 wow rubberBand" data-wow-duration = "6s">
+           <div class="input-group input-group-lg">
+
+               <input type="text" name="nom" class="form-control" required placeholder="Full name">
+           </div><br>
+           <div class="input-group input-group-lg">
+
+               <input type="text" name="email" class="form-control" placeholder="Email address">
+           </div><br>
+           <div class="input-group input-group-lg">
+
+               <input type="text" name="tel" class="form-control" placeholder="Phone number">
+           </div>
+       </div>
+       <div class="col-lg-6 col-md-6 ">
+           <div class="input-group">
+               <textarea  class="form-control" placeholder="Votre Message"></textarea>
+           </div>
+           <button class="btn btn-lg btn-outline-light mt-3">Envoyer votre Message</button>
+       </div>
+   </div>
+
+</section>
+
+
+      <hr style="height: 5px; background-color:aliceblue">
+   </main>
+
+
+   <!-- pied de page   --> 
+
+   <footer style="background-color:blue">
+
+
+      <div class="col-sm-12 col-md-6 col-lg-6 text-jcenter">
+         <h4><u>Contact</u></h4>
+         <p style="display:flex; flex-direction: column;" class="p-3">
+            <span><i class="fas fa-home mr-2"></i> : 28 rue du 18 juin 93220</span>
+             <span><i class="fas fa-envelope mr-2"></i> : ousseynoufofana15@gmail.com</span>
+             <span><i class="fas fa-phone mr-2"></i> : 07.53.58.87.59</span>
+         </p>
+     </div>
+
+
+     <div class="col-sm-12 col-md-6 col-lg-6 sociaux" >
+         <h4 class="mb-5"><u>Restez en Contact</u></h4>                
+             <a href="#"><i class="fab fa-facebook"></i></a>
+             <a href="#"><i class="fab fa-twitter"></i></a>
+             <a href="#"><i class="fab fa-linkedin"></i></a>
+             <a href="#"><i class="fab fa-pinterest"></i></a>
+             <a href="#"><i class="fab fa-youtube"></i></a>
+         
+     </div>
+
+
+      <p class="small mb-0">© Copyright <span id="year"> </span>   | Oussey Fof |  Tous droits reservès  </p>
+   </footer>
+
+
+
+</div>
+</body>
+<script src="script.js"></script>
+<script src="router.js"></script>
+</html>
